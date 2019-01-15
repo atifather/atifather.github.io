@@ -26,6 +26,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 	
+	<!-- Loading  -->
+	<link rel="stylesheet" href="css/loading.css">
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -41,7 +43,7 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
+	
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -51,8 +53,20 @@
 
 	</head>
 	<body>
+<div class="pre-loader">
+	<div class="container">
+		<div class="box">
+			<div class="animation">
+				<div class="one spin-one"></div>
+				<div class="two spin-two"></div>
+				<div class="three spin-one"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
 	<div id="colorlib-page">
-		<div class="container-fluid">
+		<div class="container-fluid ">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
@@ -787,6 +801,8 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
 
+	<!--CSS Spinner-->
+	<script src="js/loading.js"></script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -801,7 +817,6 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
