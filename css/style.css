@@ -1429,7 +1429,7 @@ body.offcanvas {
   opacity: 0; }
   
 .preloader {
-   position: absolute;
+   position: fixed;
    top: 0;
    left: 0;
    width: 100%;
