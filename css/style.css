@@ -232,10 +232,10 @@ figure {
 
 #colorlib-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  /*background: #fff url(../images/loader.gif) no-repeat center center;*/
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 8em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -380,7 +380,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -393,7 +393,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-bottom: 5em; } }
 
 .author-img {
   background-size: cover;
